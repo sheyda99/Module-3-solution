@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Sniglet', cursive;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: #e3f2fd;
+}
+
+#main-content h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#main-content section {
+    background-color: #e3f2fd;
+    border-left: 15px solid #fff;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+@media (max-width: 767px) {
+    #main-content section {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    }
+}
